@@ -13,7 +13,6 @@
 		F3138F16196F14FE00B4D1C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3138F14196F14FE00B4D1C8 /* InfoPlist.strings */; };
 		F3138F18196F14FE00B4D1C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3138F17196F14FE00B4D1C8 /* main.m */; };
 		F3138F1C196F14FE00B4D1C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3138F1B196F14FE00B4D1C8 /* AppDelegate.m */; };
-		F3138F1F196F14FE00B4D1C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3138F1D196F14FE00B4D1C8 /* Main.storyboard */; };
 		F3138F22196F14FE00B4D1C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3138F21196F14FE00B4D1C8 /* ViewController.m */; };
 		F3138F24196F14FE00B4D1C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3138F23196F14FE00B4D1C8 /* Images.xcassets */; };
 		F3138F2B196F14FE00B4D1C8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3138F2A196F14FE00B4D1C8 /* XCTest.framework */; };
@@ -21,6 +20,8 @@
 		F3138F2D196F14FE00B4D1C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3138F0F196F14FE00B4D1C8 /* UIKit.framework */; };
 		F3138F35196F14FE00B4D1C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3138F33196F14FE00B4D1C8 /* InfoPlist.strings */; };
 		F3138F37196F14FE00B4D1C8 /* LocationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3138F36196F14FE00B4D1C8 /* LocationTestTests.m */; };
+		F3138F41196F151500B4D1C8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3138F40196F151500B4D1C8 /* CoreLocation.framework */; };
+		F34EC1621978714B00DC80C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34EC1611978714B00DC80C6 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,6 @@
 		F3138F19196F14FE00B4D1C8 /* LocationTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocationTest-Prefix.pch"; sourceTree = "<group>"; };
 		F3138F1A196F14FE00B4D1C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F3138F1B196F14FE00B4D1C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F3138F1E196F14FE00B4D1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3138F20196F14FE00B4D1C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F3138F21196F14FE00B4D1C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F3138F23196F14FE00B4D1C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		F3138F32196F14FE00B4D1C8 /* LocationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocationTestTests-Info.plist"; sourceTree = "<group>"; };
 		F3138F34196F14FE00B4D1C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3138F36196F14FE00B4D1C8 /* LocationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationTestTests.m; sourceTree = "<group>"; };
+		F3138F40196F151500B4D1C8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F34EC1611978714B00DC80C6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3138F41196F151500B4D1C8 /* CoreLocation.framework in Frameworks */,
 				F3138F0E196F14FE00B4D1C8 /* CoreGraphics.framework in Frameworks */,
 				F3138F10196F14FE00B4D1C8 /* UIKit.framework in Frameworks */,
 				F3138F0C196F14FE00B4D1C8 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		F3138F0A196F14FE00B4D1C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3138F40196F151500B4D1C8 /* CoreLocation.framework */,
 				F3138F0B196F14FE00B4D1C8 /* Foundation.framework */,
 				F3138F0D196F14FE00B4D1C8 /* CoreGraphics.framework */,
 				F3138F0F196F14FE00B4D1C8 /* UIKit.framework */,
@@ -112,9 +116,9 @@
 		F3138F11196F14FE00B4D1C8 /* LocationTest */ = {
 			isa = PBXGroup;
 			children = (
+				F34EC160197870F600DC80C6 /* iPad */,
 				F3138F1A196F14FE00B4D1C8 /* AppDelegate.h */,
 				F3138F1B196F14FE00B4D1C8 /* AppDelegate.m */,
-				F3138F1D196F14FE00B4D1C8 /* Main.storyboard */,
 				F3138F20196F14FE00B4D1C8 /* ViewController.h */,
 				F3138F21196F14FE00B4D1C8 /* ViewController.m */,
 				F3138F23196F14FE00B4D1C8 /* Images.xcassets */,
@@ -150,6 +154,14 @@
 				F3138F33196F14FE00B4D1C8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F34EC160197870F600DC80C6 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				F34EC1611978714B00DC80C6 /* Main.storyboard */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34EC1621978714B00DC80C6 /* Main.storyboard in Resources */,
 				F3138F24196F14FE00B4D1C8 /* Images.xcassets in Resources */,
 				F3138F16196F14FE00B4D1C8 /* InfoPlist.strings in Resources */,
-				F3138F1F196F14FE00B4D1C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +292,6 @@
 				F3138F15196F14FE00B4D1C8 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F3138F1D196F14FE00B4D1C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3138F1E196F14FE00B4D1C8 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		F3138F33196F14FE00B4D1C8 /* InfoPlist.strings */ = {
@@ -379,7 +383,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocationTest/LocationTest-Prefix.pch";
 				INFOPLIST_FILE = "LocationTest/LocationTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +398,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocationTest/LocationTest-Prefix.pch";
 				INFOPLIST_FILE = "LocationTest/LocationTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +464,7 @@
 				F3138F3C196F14FE00B4D1C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3138F3D196F14FE00B4D1C8 /* Build configuration list for PBXNativeTarget "LocationTestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				F3138F3F196F14FE00B4D1C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
